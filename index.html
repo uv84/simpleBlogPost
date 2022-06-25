@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li style="float:right"><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fakeData">
+        <h1 style="font-size: 40px; color: white;">Title of a longer<br> featured blog post</h1>
+        <p style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Aperiam saepe reprehenderit eveniet enim<br> earum. Aliquam, a esse ducimus deleniti sit, ex consequatur hic
+            optio nesciunt est enim iste repellat quam!</p>
+        <h3 style="color: white;">Continue reading...</h3>
+    </div>
+
+
+    <div id="form-dis">
+        <section class="formSection">
+
+            <label for="heading">Heading of Blog Post:</label><br>
+            <input id="heading" type="text" name="heading"><br><br>
+
+            <label for="name">your name:</label><br>
+            <input id="name" type="text" name="name"><br><br>
+
+            <label for="fname">write blog here:</label><br>
+
+            <textarea id="blog-content"></textarea><br>
+            <button class="btn" id="sbt-btn">Submit</button>
+
+        </section>
+    </div>
+
+    <div id="Display-blog">
+        <section class="display">
+            <h1 id="headingDis"></h1>
+            <h6 style="font-size: 20px;" id="nameDis"></h6>
+            <p id="content"></p>
+        </section>
+    </div>
+
+    <footer class="text-center mt-5 py-2">
+        <p>&copy 2021. Made by <b>Gaurav Gupta</b> <br> All rights </p>
+    </footer>
+    <script src="./js/js.js"></script>
+
+</body>
+
+</html>
